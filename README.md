@@ -1,3 +1,77 @@
+README.md
+# AI Intelligent Teaching Experiments for Smart Manufacturing & Smart Ocean
+Textbook Supporting Open Source Project | 教材配套人工智能实训开源代码
+Authors: Haijian Shao, Xing Deng
+Version: 1.0 | Fully CPU-based | Zero GPU Required | Teaching-Level Reproducible Code
+
+---
+📌 Project Introduction / 项目简介
+This open-source repository contains three standard industrial & marine AI teaching cases for undergraduate intelligent manufacturing, industrial artificial intelligence, marine technology, and environmental science courses.
+All experiments adopt the Random Forest algorithm as the unified core model, forming a complete, standardized, and progressive machine learning practical system. All codes are lightweight, fully automatic, environment-friendly, and completely reproducible for classroom teaching and experimental training.
+本仓库为智能制造与智慧海洋AI教材配套开源代码，包含机器人智能控制、工业设备预测性维护、近海海洋环境监测三大标准化实训案例。全部实验统一采用随机森林算法，代码规范统一、结果稳定、无需GPU、零基础可复现，适配高校多专业教学实训。
+
+---
+📚 Three Core Teaching Cases / 三大实训案例
+1. Intelligent Robot Grasping Control (Chapter 7.2)
+Scenario: Industrial robot adaptive grasping decision system
+Description
+Based on industrial robot physical motion rules and multi-dimensional sensor data (joint angle, 3D force, position offset, grasping quality), this case builds a Perception–Decision–Execution closed-loop intelligent control model. It realizes autonomous judgment of grasping success or failure, replacing traditional fixed teaching programming.
+Highlights
+- Industrial physical rule-driven dataset
+- Visual feature importance analysis for robot control interpretability
+- Full closed-loop intelligent robot simulation
+2. Industrial Predictive Maintenance Fault Diagnosis
+Scenario: Equipment intelligent fault classification and predictive maintenance
+Description
+Based on the public AI4I 2020 Predictive Maintenance Dataset (UCI), this experiment realizes binary fault identification of industrial mechanical equipment using temperature, rotation speed, torque, and tool wear features. It is a classic introductory industrial AI classification task.
+Highlights
+- Auto-download official dataset, no manual processing
+- Standard industrial machine learning pipeline
+- Complete visualization: feature importance, confusion matrix, ROC curve
+3. China Offshore Marine Monitoring &amp; Red Tide Early Warning (Chapter 7.4)
+Scenario: Smart ocean ecological monitoring and marine disaster early warning
+Description
+Constructed based on China offshore buoy monitoring characteristics (Bohai Sea, Yellow Sea, East China Sea). Using key marine indicators such as water temperature, salinity, DO, chlorophyll-a, nitrate, and phosphate, the model realizes intelligent identification of water quality anomalies and red tide risk early warning.
+Highlights
+- Fully conforms to China offshore marine ecological laws
+- Simulates real low-probability marine disaster sample distribution
+- Professional and teachable for oceanography and environmental majors
+
+---
+⚙️ Unified Technical Features / 统一技术特点
+- Unified Model: Random Forest (best for teaching, stable, explainable, no tuning needed)
+- Unified Pipeline: Data loading → preprocessing → training → evaluation → visualization
+- Zero GPU: All experiments run on CPU within seconds
+- Zero threshold: Suitable for beginner teaching and experimental reproduction
+- Full interpretability: Feature importance analysis for all cases
+- Textbook-level results: Standard figures and indicators for textbook publishing
+
+---
+📊 Standard Experimental Output / 标准实验输出内容
+Each case outputs complete teaching results:
+- Dataset statistics & sample display
+- Accuracy, Precision, Recall, F1-Score
+- Classification report
+- Feature importance visualization
+- Real-time intelligent decision demonstration
+
+---
+🌊 Application Scenarios / 适用教学场景
+- Intelligent Manufacturing Engineering
+- Industrial Artificial Intelligence
+- Robot Engineering
+- Marine Technology & Oceanography
+- Environmental Science and Engineering
+- Big Data and Artificial Intelligence General Education
+
+---
+📄 License & Statement
+This project is for teaching and academic research purposes only. All codes are standardized and open-source for textbook supporting teaching demonstration.
+本项目仅供教学与学术研究使用，为教材配套开源实训代码。
+
+---
+🌟 Star if helpful | 欢迎 Star、Fork、学习使用
+
 # AI4I 2020 Predictive Maintenance Teaching Demo
 # 基于随机森林与预测性维护数据集的工业应用-AI教学实践
 
