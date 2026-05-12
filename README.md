@@ -1,5 +1,5 @@
 # AI4I 2020 Predictive Maintenance Teaching Demo
-# 基于随机森林与预测性维护数据集的工业AI教学实践
+# 基于随机森林与预测性维护数据集的工业应用-AI教学实践
 
 ## Authors / 作者
 **Haijian Shao**, **Xing Deng**
