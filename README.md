@@ -1,5 +1,6 @@
 README.md
 # AI Intelligent Teaching Experiments for Smart Manufacturing & Smart Ocean
+
 Textbook Supporting Open Source Project | 教材配套人工智能实训开源代码
 Authors: Haijian Shao, Xing Deng
 Version: 1.0 | Fully CPU-based | Zero GPU Required | Teaching-Level Reproducible Code
@@ -12,6 +13,7 @@ All experiments adopt the Random Forest algorithm as the unified core model, for
 
 ---
 📚 Three Core Teaching Cases / 三大实训案例
+
 1. Intelligent Robot Grasping Control (Chapter 7.2)
 Scenario: Industrial robot adaptive grasping decision system
 Description
@@ -73,6 +75,7 @@ This project is for teaching and academic research purposes only. All codes are 
 🌟 Star if helpful | 欢迎 Star、Fork、学习使用
 
 # AI4I 2020 Predictive Maintenance Teaching Demo
+
 # 基于随机森林与预测性维护数据集的工业应用-AI教学实践
 
 ## Authors / 作者
@@ -88,12 +91,15 @@ This combination is the optimal solution for introductory teaching, student repr
 
 **中文**:
 本书配套上机实验代码完全对应：
+
 **AI4I 2020 预测性维护数据集 + 随机森林（Random Forest）故障分类模型**。
 该组合是适配入门教学、学生复现、教材配图演示的最优实训方案，全程无GPU依赖、训练速度快、实验结果稳定、可视化效果标准。
 
 ---
 
-# 2. Core Positioning of Training Program / 二、本实训方案核心定位
+# 2. Core Positioning of Training Program 
+
+二、本实训方案核心定位
 **English**:
 This experiment takes **binary fault identification of industrial equipment** as the core task. Based on interpretable industrial parameters such as equipment operating temperature, rotational speed, torque, and tool wear, it intelligently judges whether the equipment is in normal operation or failure state. It is a classic introductory practical case for industrial artificial intelligence and machine learning classification tasks.
 
@@ -106,7 +112,9 @@ Compared with advanced tasks such as time series forecasting, vibration signal f
 
 ---
 
-# 3. Dataset Matching Description / 三、数据集匹配说明（对应代码数据来源）
+# 3. Dataset Matching Description 
+
+三、数据集匹配说明（对应代码数据来源）
 **English**:
 The experimental code adopts the officially open-source **AI4I 2020 Predictive Maintenance Dataset** from UCI.
 Built-in automatic download logic requires no manual file upload, compatible with Google Colab Free Edition, Kaggle Notebook, and local Python environments.
@@ -129,7 +137,9 @@ Core attributes fully meet teaching requirements:
 
 ---
 
-# 4. Teaching Adaptation Advantages of Random Forest / 四、随机森林模型教学适配优势
+# 4. Teaching Adaptation Advantages of Random Forest
+
+四、随机森林模型教学适配优势
 **English**:
 Random Forest is selected as the core algorithm, with the highest cost performance and strong teaching suitability for textbook training scenarios. Core advantages:
 - **No parameter tuning required**: Default 100 decision trees produce stable and high-precision results; students do not need to master complex hyperparameter optimization.
@@ -148,7 +158,9 @@ Random Forest is selected as the core algorithm, with the highest cost performan
 
 ---
 
-# 5. Complete Experimental Workflow / 五、完整实训流程（与代码逐段对应）
+# 5. Complete Experimental Workflow
+
+五、完整实训流程（与代码逐段对应）
 **English**:
 The code strictly follows the standard industrial AI data analysis pipeline, corresponding to textbook knowledge points for classroom teaching and experiment report writing:
 1. **Library Import**: Import toolkits for data processing, visualization, model training and evaluation metrics.
@@ -179,7 +191,9 @@ The code strictly follows the standard industrial AI data analysis pipeline, cor
 
 ---
 
-# 6. Textbook Illustration Advantages / 六、本方案专属教材配图优势
+# 6. Textbook Illustration Advantages
+
+六、本方案专属教材配图优势
 **English**:
 This scheme generates four textbook-level standard visualization results, suitable for textbook screenshots, courseware display and laboratory reports:
 1. **Machine Failure Distribution Bar Chart**: Intuitively show the distribution of normal and fault samples.
@@ -196,7 +210,9 @@ This scheme generates four textbook-level standard visualization results, suitab
 
 ---
 
-# 7. Teaching Adaptation Summary / 七、教学适配总结
+# 7. Teaching Adaptation Summary
+
+七、教学适配总结
 **English**:
 **AI4I 2020 Dataset + Random Forest Classification Model** is a perfectly matched introductory industrial AI training scheme for this textbook.
 The code supports fully automatic operation with wide environment compatibility, ultra-high training efficiency, and intuitive professional results. It enables zero-basis students to reproduce experiments quickly and generates standard AI teaching achievements, perfectly fitting the teaching needs of intelligent manufacturing, industrial big data, and artificial intelligence general courses.
