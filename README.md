@@ -83,7 +83,9 @@ This project is for teaching and academic research purposes only. All codes are 
 
 ---
 
-# 1. Training Program Confirmation / 一、实训方案确认
+# 1. Training Program Confirmation
+
+一、实训方案确认
 **English**:
 The supporting experimental code in this textbook completely corresponds to:
 **AI4I 2020 Predictive Maintenance Dataset + Random Forest Fault Classification Model**.
