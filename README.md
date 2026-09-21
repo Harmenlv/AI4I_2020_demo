@@ -1,4 +1,3 @@
----
 
 # AI Intelligent Teaching Experiments for Smart Manufacturing & Smart Ocean
 > 教材配套人工智能实训开源代码
@@ -10,7 +9,6 @@
 **Hardware:** CPU-based · Zero GPU Required
 **Level:** Undergraduate AI General Education
 
----
 
 ## 📌 项目简介 / Introduction
 
